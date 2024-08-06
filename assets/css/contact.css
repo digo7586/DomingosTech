@@ -1,0 +1,181 @@
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/tec5.png);
+    
+}
+
+.container-contact {
+    
+    width: 0%;
+    height: 100%;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    flex-grow: 1;
+}
+
+.headline {
+    width: 100%;
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.headline h1 {
+    font-size: 2rem;
+}
+
+.headline span {
+    font-size: 1.3rem;
+}
+
+.content-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-grow: 1;
+}
+
+.left-contact,
+.right-contact {
+    width: 100%;
+}
+
+.text-contact h1 {
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.text-contact p {
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: var(--gray);
+}
+
+.list-contact {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
+.container-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.container-list ul {
+    width: 100%;
+}
+
+.container-list li {
+    font-size: 1rem;
+    color: var(--gray);
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.container-list i {
+    color: var(--gold);
+    font-size: 1.2rem;
+}
+
+.redes-sociais-contato {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.redes-sociais-contato span {
+    font-size: 1.5rem;
+}
+
+.redes-sociais-contato a {
+    transition: all 0.3s ease;
+    font-size: 1.5rem;
+    color: var(--gray);
+    transform: translateY(0);
+}
+
+.redes-sociais-contato a:hover {
+    transform: translateY(-5px);
+}
+
+.redes-sociais-contato a:hover .fa-github {
+    color: #454545;
+}
+
+.redes-sociais-contato a:hover .fa-linkedin {
+    color: #0e76a8;
+}
+
+.right-contact h2 {
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--white);
+    padding-bottom: 1rem;
+}
+
+.right-contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.right-contact label {
+    font-size: 1rem;
+    color: var(--white);
+}
+
+.right-contact input,
+.right-contact textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: var(--white);
+    font-size: 1rem;
+}
+
+.right-contact .btn {
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: var(--gold);
+    color: var(--white);
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.right-contact .btn:hover {
+    background-color: #fff;
+    color: var(--gold);
+}
+
+.success-message {
+    display: none;
+    color: var(--green);
+    font-size: 1rem;
+    margin-top: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}

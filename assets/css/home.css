@@ -1,0 +1,82 @@
+section {
+    padding: 10rem 15% 7.5rem;
+   
+}
+
+#img {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.home {
+position: relative;
+height: 100vh;
+width: 100%;
+background-image: url(../img/tec.png);
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+Background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.home-text h1 {
+    font-size: 5.5rem;
+    font-weight: bold;
+    line-height: 1.1;
+    margin: 0 0 8px;
+    text-transform: uppercase;
+}
+
+.home-text h3 {
+    margin: 0 0 2.18rem;
+    font-size: 3.7rem;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+.home-text p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 2.5rem;
+}
+
+
+
+
+
+.redes-sociais {
+    position: absolute;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.redes-sociais a {
+    transition: all 0.2s ease-in;
+    font-size: 1.5rem;
+    color: var(--gray);
+    transform: translateY(0);
+}
+
+.redes-sociais a:hover {
+    transform: translateY(-5px);
+}
+
+.redes-sociais a:hover .fa-github {
+    color: #454545;
+}
+
+.redes-sociais a:hover .fa-linkedin {
+    color: #0e76a8;
+} 

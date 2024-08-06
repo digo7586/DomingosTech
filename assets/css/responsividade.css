@@ -1,0 +1,125 @@
+@media (max-width: 1480px) {
+    header {
+        padding: 12px 2.5%;
+        transition: .1s;
+    }
+    header.sticky {
+        padding: 10px 2.5%;
+        transition: .1s;
+    }
+    section {
+        padding: 6.8rem 3% 3.7rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .home-text h3 {
+        font-size: 2.5rem;
+    }
+
+    .home-text h1 {
+        font-size: 4rem;
+    }
+    .home {
+        height: 87vh;
+    }
+}
+
+@media (max-width: 1072px) {
+    .services-content {
+       
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+       
+    }
+}
+
+@media (max-width: 1008px) {
+    .services-content {
+       
+        grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+       
+    }
+}
+
+@media (max-width: 944px) {
+    .services-content {
+       
+        grid-template-columns: repeat(auto-fit, minmax(270px, auto)); 
+    }
+}
+
+@media (max-width: 912px) {
+    section.services {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 920px) {
+    .about {
+        grid-template-columns: 1fr;
+    }
+    .about-img {
+        text-align: center;
+        order: 2;
+    }
+    .about-img img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+    .contact {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 840px) {
+    #menu-icon {
+        display: block;
+    }
+    .navlist {
+        position: absolute;
+        top: -1000px;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: #131216;
+        text-align: left;
+        transition: all .45s ease;
+    }
+    .navlist a {
+        display: block;
+        margin: 17px;
+        font-size: 20px;
+        transition: all .45s ease;
+        color: var(--gray);
+    }
+    .navlist a:hover {
+        color: var(--gold);
+    }
+    .navlist a.active {
+        color: var(--gray);
+    }
+   
+    .navlist.open {
+        top: 100%;
+    }
+}
+
+@media (max-width: 567px) {
+    .logo {
+        font-size: 1.4rem;
+    }
+    .home-text h1 {
+        font-size: 3rem;
+    }
+    .home-text h3 {
+        font-size: 2rem;
+    }
+    .about-text h2, .main-text h2 {
+        font-size: 1.7rem;
+    }
+    .about-text h4 {
+        font-size: 18px;
+    }
+}
