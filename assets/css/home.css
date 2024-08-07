@@ -1,6 +1,5 @@
 section {
     padding: 10rem 15% 7.5rem;
-   
 }
 
 #img {
@@ -22,7 +21,8 @@ background-position: center;
 display: flex;
 align-items: center;
 justify-content: center;
-
+Background-attachment: fixed;
+    background-position: center;
     
 }
 
@@ -46,9 +46,6 @@ justify-content: center;
     line-height: 1.8;
     margin-bottom: 2.5rem;
 }
-
-
-
 
 
 .redes-sociais {
