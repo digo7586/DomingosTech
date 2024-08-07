@@ -40,16 +40,26 @@ input::-webkit-inner-spin-button {
 }
 
 body {
+    overflow-x: hidden;
+    width: 100%; 
     font-family: "Roboto", sans-serif;
     background-color: #0A090E;
     color: var(--white);
 }
 
-a,li {
+
+
+
+.container, .navlist, .about, .services-content, section {
+    max-width: 100%;
+}
+
+li,a {
     text-decoration: none;
     list-style: none;
     color: var(--white);
 }
+
 
 .btn {
     padding: 0.7rem 1.5rem;
@@ -132,6 +142,48 @@ header.sticky {
     border-bottom: 1px solid #ffffff1a;
     padding: 12px 15%;
 }
+
+  /*====  scrollbar ============================ */
+  ::-webkit-scrollbar {
+    width: .6rem;
+    background-color: #0f0f0f;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    width: .6rem;
+    background: var(--gradient);
+    border-radius: 1rem;
+  }
+  
+    /* buttonWhatsapp =================== */
+  #buttonWhatsapp {
+      position: fixed;
+      bottom: 1rem;
+      right: 1rem;
+      z-index: 100;
+    
+      opacity: 0;
+      visibility: hidden;
+    
+      transform: translateY(100%);
+      transition: all 300ms ease-in-out;
+    }
+    
+    #buttonWhatsapp.show {
+      opacity: 1;
+      visibility: visible;
+    
+      transform: translateY(0);
+    }
+    
+    #buttonWhatsapp img {
+      width: 6rem;
+      transition: all 300ms ease-in-out;
+    }
+    
+    #buttonWhatsapp svg:hover {
+      transform: scale(1.1);
+    }
 
 .footer {
     width: 100%;
