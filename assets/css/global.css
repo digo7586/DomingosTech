@@ -79,7 +79,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background: transparent;
-    padding: 1.38rem 15%;
+    padding: 1.38rem;
     border-bottom: 1px solid transparent;
     transition: all .45s ease;
 }
