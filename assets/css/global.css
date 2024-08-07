@@ -60,7 +60,11 @@ body {
 ul {
   list-style: none;
 }
-
+.wrapper {
+  width: min(50rem, 100%);
+  margin-inline: auto;
+  padding-inline: 2.4rem;
+}
 /*BASE =================== */
 body {
   font-size: 1.6rem;
