@@ -115,18 +115,22 @@ no@media (max-width: 1480px) {
 height: 100vh;
 width: 100%;
 }
-     h1 {
+    .home-text h1 {
         font-size: 2.3rem;
     }
-    h3 {
+  .home-text h3 {
         font-size: 1.5rem;
     }
 
 
-    h2 {
+  .about-text h2, .stacks H2 {
         font-size: 1.6rem;
     }
-     h4 {
+    .about-text h4 {
         font-size: 15px;
     }
+
+
+
+
 }
