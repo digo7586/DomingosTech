@@ -37,6 +37,7 @@ input::-webkit-inner-spin-button {
     --black: #050505;
     --white: #fafafa;
     --gray: #c9c9c9;
+    --gradient: linear-gradient(45deg, #FFBE00, #d68f0a);
 }
 
 body {
@@ -110,6 +111,7 @@ header {
 
 .navlist {
    display: flex;
+   
 }
 
 .navlist a {
@@ -132,9 +134,12 @@ header {
 /*  icon hamburger */
 
 .menu-icon {
-    font-size: 1.8rem;
-    z-index: 999;
+    
     display: none;
+
+    font-size: 1.8rem;
+    cursor: pointer;
+    z-index: 1000;
 }
 
 header.sticky {
