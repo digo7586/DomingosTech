@@ -111,15 +111,15 @@
         font-size: 1.4rem;
     }
     .home-text h1 {
-        font-size: 3rem;
-    }
-    .home-text h3 {
         font-size: 2rem;
     }
+    .home-text h3 {
+        font-size: 1rem;
+    }
     .about-text h2, .main-text h2 {
-        font-size: 1.7rem;
+        font-size: 1rem;
     }
     .about-text h4 {
-        font-size: 18px;
+        font-size: 14px;
     }
 }
