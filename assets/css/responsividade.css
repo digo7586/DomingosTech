@@ -1,6 +1,6 @@
 @media (max-width: 1480px) {
     header {
-        padding: 12px 2.5%;
+        
         transition: .1s;
     }
     header.sticky {
@@ -108,31 +108,21 @@
 
 @media (max-width: 567px) {
 
+
     .logo {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
-
-.home {
-height: 100vh;
-width: 100%;
-}
     .home-text h1 {
-        font-size: 2.3rem;
+        font-size: 3rem;
     }
-  .home-text h3 {
-        font-size: 1.5rem;
+    .home-text h3 {
+        font-size: 2rem;
     }
-
-
-  .about-text h2, .stackks h2 {
-        font-size: 2.3rem;
+    .about-text h2, .main-text h2 {
+        font-size: 1.7rem;
     }
     .about-text h4 {
-        font-size: 15px;
+        font-size: 18px;
     }
-
-.main-text h2 {
-    font-size: 2.3rem;
-
-
 }
+
