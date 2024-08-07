@@ -1,24 +1,13 @@
 @media (max-width: 1480px) {
-    header {
-        
-        transition: .1s;
-    }
-    header.sticky {
-        padding: 10px 2.5%;
-        transition: .1s;
-    }
     section {
         padding: 6.8rem 3% 3.7rem;
     }
 }
 
-
-
 @media (max-width: 1100px) {
     .home-text h3 {
         font-size: 2.5rem;
     }
-
     .home-text h1 {
         font-size: 4rem;
     }
@@ -28,24 +17,19 @@
 }
 
 @media (max-width: 1072px) {
-    .services-content {
-       
-        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-       
+    .services-content { 
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto)); 
     }
 }
 
 @media (max-width: 1008px) {
-    .services-content {
-       
+    .services-content { 
         grid-template-columns: repeat(auto-fit, minmax(280px, auto));
-       
     }
 }
 
 @media (max-width: 944px) {
     .services-content {
-       
         grid-template-columns: repeat(auto-fit, minmax(270px, auto)); 
     }
 }
@@ -81,7 +65,7 @@
     .navlist {
         position: absolute;
         top: -1000px;
-        width: 100%;
+        width: 100vw;
         right: 0;
         left: 0;
         display: flex;
@@ -107,9 +91,11 @@
     .navlist.open {
         top: 100%;
     }
+   
 }
 
 @media (max-width: 567px) {
+    
     .logo {
         font-size: 1.4rem;
     }
@@ -119,6 +105,7 @@
     .home {
         height: 100vh;
     }
+    
 }
 
 
