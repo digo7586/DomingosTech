@@ -1,181 +1,207 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    padding-block: 10rem;
+  }
 
-.projects {
+/* PROJECTS =================== */
+  #projects {
+    overflow: hidden;
     background-image: url(../img/tec6.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.082);
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    position: relative;
     background-attachment: fixed;
     background-position: center;
+    min-height: 500px;
+  }
+
+  #projects img.textoPortfolio {
     width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 2rem;
-    
-    
-}
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+    opacity: .02;
+  }
 
+  #projects img.looper {
+    position: absolute;
+    
 
-.container-projects {
-    width: 90%;
+    animation: rotate infinite linear 20s;
+    z-index: -1;
+    filter: brightness(.1);
+  }
+
+  #projects img.looper.um {
+    bottom: 91%;
+    right: -24rem;
+  }
+
+  #projects img.looper.dois {
+    bottom: 45%;
+    left: -24rem;
+  }
+
+  #projects img.looper.tres {
+    bottom: 10%;
+    right: -24rem;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  #projects header h2 {
+    line-height: 1.1;
+    color: var(--color-text);
+    font-size: 3.5rem;
+
+    margin-bottom: 1rem;
+  }
+
+  #projects header p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    color: var(--p-color);
+    font-weight: 600;
+  }
+
+  #projects header {
+    margin-bottom: 8rem;
+  }
+
+  #projects .cards {
+    
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-   
+    gap: 8rem;
+  }
+
+  #projects .image img {
+    width: 600px;
+    transition: all 200ms ease-in-out;
+    animation: move 2.5s infinite ease-in-out;
+
+    filter: drop-shadow(2px 4px 20px #1b1b1b);
+
+    margin-bottom: 4rem;
+  }
+
+  #projects .card.right .image img {
+    animation-delay: 500ms;
+  }
+  
+  #projects .image img:hover { 
+    cursor: pointer;
+    filter: drop-shadow(1px 3px 15px #4646469d);
+  }
+
+  #projects h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #d8d8d8;
+
+    margin-bottom: .5rem;
+  }
+
+  #projects p {
+    font-family: "Poppins", sans-serif;
+    color: var(--p-color);
+    font-size: 1.6rem;
+  }
+
+  #projects .technologies {
+    margin-top: 2rem;
+  }
+
+  #projects .technologies ion-icon {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+
+  #projects .technologies ion-icon:nth-child(1) {
+  color: #f0db4f;
+  border-radius: 1rem;
 }
 
-.content-projects {
-   
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
+  #projects .technologies ion-icon:nth-child(2) {
+  color: #ec6231;
 }
 
-.cards-projects {
-    
+  #projects .technologies ion-icon:nth-child(3) {
+  color: #264de4;
+}
+
+/* buttonWhatsapp =================== */
+#buttonHome {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 100;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateY(100%);
+  transition: all 300ms ease-in-out;
+}
+
+#buttonHome.show {
+  opacity: 1;
+  visibility: visible;
+
+  transform: translateY(0);
+}
+
+#buttonHome img {
+  width: 6rem;
+  transition: all 300ms ease-in-out;
+}
+
+#buttonHome svg:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 1080px) {
+ 
+  section#projects .wrapper header h2 {
+    font-size: 5rem;
+  }
+
+  section#projects .wrapper .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 20rem;
+    column-gap: 30rem;
+  }
+
+
 }
 
-.card-project {
-    background-color:#faf9f9;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    box-shadow: 0 4px 8px rgba(243, 222, 177, 0.212);
-    transition: transform 0.3s;
-    height: 100%;
+@keyframes move {
+  50% {
+    transform: translateY(10px);
+  }
 }
 
-.card-project:nth-child(n+2):nth-child(-n+6) {
-    transition: all 1s ease;
-    opacity: 0.4;
+@keyframes moveicon {
+  50% {
+    transform: translateX(5px);
+  }
 }
 
-.card-project:nth-child(n+2):nth-child(-n+6):hover {
-    opacity: 5;
-}
-
-
-.img-project {
-    background-color: transparent;
-    border-radius: 25px;
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-
-.img-project img {
-    width: 100%;
-    display: block;
-}
-
-.content-card {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-grow: 1;
-}
-
-.text-project {
-    width: 100%;
-    text-align: left;
-}
-
-.text-project h2 {
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin: 1rem 0 0.5rem;
-    color: #282828ce;
-}
-
-.text-project span {
-    font-size: 1rem;
-    color: var(--gold);
-    font-weight: 500;
-    display: block;
-    margin-bottom: 0.5rem;
-    letter-spacing: 2;
-}
-
-.text-project p {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #282828;
-    margin-bottom: 1rem;
-}
-
-.cta-project {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: auto;
-}
-
-.tag-project {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
-}
-
-.tag-project i {
-    font-size: 1.5rem;
-    color: var(--white);
-    transition: color 0.3s ease;
-}
-
-.tag-project i:hover.fa-html5 {
-    color: #e34c26;
-}
-
-.tag-project i:hover.fa-css3-alt {
-    color: #1572B6;
-}
-
-.tag-project i:hover.fa-js {
-    color: #F7DF1E;
-}
-
-.tag-project i:hover.fa-bootstrap {
-    color: #7952B3;
-}
-
-.tag-project i:hover.fa-wordpress {
-    color: #21759B;
-}
-
-.tag-project i:hover.fa-wix {
-    color: #8c8c8c;
-}
-
-.btn-project a {
-    display: block;
-    text-align: center;
-    padding: 0.7rem;
-    background-color: var(--gold);
-    color: var(--white);
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-size: 1rem;
-    transition: background-color 0.3s;
-    opacity: 0.8;
-}
-
-.btn-project a:hover {
-    background-color: #fff;
-    color: var(--gold);
-}
+ 
