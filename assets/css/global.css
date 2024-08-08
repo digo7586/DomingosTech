@@ -8,7 +8,7 @@
 }
 
  ::-webkit-scrollbar {
-    width: 4px;
+    width: 3px;
     color: var(--gold);
     transition: all .4s ease;
 }
@@ -16,14 +16,14 @@
 ::-webkit-scrollbar-thumb {
     background: var(--gold);
     border-radius: 4px;
-    width: 4px;
+    width: 3px;
     transition: all .4s ease;
 }
 
 ::-webkit-scrollbar-track {
     background: var(--black);
     border-radius: 4px;
-    width: 4px;
+    width: 3px;
 }
 
 input::-webkit-outer-spin-button,
@@ -38,6 +38,7 @@ input::-webkit-inner-spin-button {
     --white: #fafafa;
     --gray: #c9c9c9;
     --gradient: linear-gradient(45deg, #FFBE00, #d68f0a);
+   
 }
 
 body {
@@ -150,12 +151,12 @@ header.sticky {
 
   /*====  scrollbar ============================ */
   ::-webkit-scrollbar {
-    width: .6rem;
+    width: .3rem;
     background-color: #0f0f0f;
   }
   
   ::-webkit-scrollbar-thumb {
-    width: .6rem;
+    width: .3rem;
     background: var(--gradient);
     border-radius: 1rem;
   }
@@ -200,3 +201,6 @@ header.sticky {
     font-size: 1rem;
     text-align: center;
 }
+
+
+
