@@ -1,94 +1,154 @@
-.services {
+#servicesDesktop {
     background-image: url(../img/tec6.png);
     background-attachment: fixed;
     background-position: center;
     min-height: 500px;
+    position: relative;
+    display: none;
+    padding-bottom: 16rem;
+    overflow: hidden;
+}
+
+#servicesDesktop .wrappers {
+    position: relative;
 }
 
 .main-text {
     text-align: center;
 }
 
-.main-text p {
-    color: var(--gray);
-    font-size: 15px;
-    margin-bottom: 15px;
-}
-
-.main-text h2 {
-    font-size: 2.5rem;
-    line-height: 1;
-}
-
-.services-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, auto));
-    align-items: center;
-    gap: 1.5rem;
-    margin-top: 5rem;
-}
-
-.box {
-    background-color: #151515;
-    border-radius: 25px;
-    max-width: 320px;
-    height: 280px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    gap: 1.2rem;
-    padding: 15px;
-    overflow: hidden;
-}
-
-
-.box i {
-    width: 90px;
-    height: 90px;
-    display: flex;
-    border-radius: 25%;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-    
-}
-
-.box i {
-    transition: all .8s ease;
-}
-
-.box:hover i {
-    box-shadow: 0px 0px 0px 3px var(--gold);
-}
-
-.box h3 {
-    font-size: 1.2rem;
+#servicesDesktop .content span.span {
+    font-size: 1rem;
     color: var(--gold);
+    font-weight: 500;
 }
 
-.box p {
+#servicesDesktop h2 {
+    margin-top: .5rem;
+    font-size: 3rem;
+    color: var(--white);
+    font-weight: 500;
+    margin-bottom: 7rem;
+}
+
+#servicesDesktop .container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow:  10px 10px 40px #161616,
+             -10px -10px 40px #242421;
+}
+
+#servicesDesktop .container .box {
+    width: 25%;
+    flex-grow: 1;
+    background-size: cover;
+    background-position: center;
+    transition: all 500ms ease-in-out;
+
+    height: 70vh;
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem;
+    text-align: left;
+
+    position: relative;
+}
+
+#servicesDesktop .container .box:hover {
+    width: 50%;
+}
+
+#servicesDesktop .container .box:nth-child(1) {
+    background-image: url(../img/tec.png);
+}
+
+#servicesDesktop .container .box:nth-child(2) {
+    background-image: url(../img/tec2.png);
+}
+
+#servicesDesktop .container .box:nth-child(3) {
+    background-image: url(../img/tec.png);
+}
+
+#servicesDesktop .container .box:nth-child(4) {
+    background-image: url(../img/tec2.png);
+}
+
+#servicesDesktop .container .box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit; 
+    filter: brightness(.5);
+    z-index: 1; 
+    transition: all 500ms ease-in-out;
+}
+
+#servicesDesktop .container .box:hover::before {
+    filter: brightness(.4);
+}
+
+#servicesDesktop .container .box > * {
+    position: relative; 
+    z-index: 2;
+}
+
+#servicesDesktop .container .box h3 {
+    font-size: 2.1rem;
     color: var(--white);
     font-weight: 400;
+
+    margin-bottom: 1rem;
+    transition: all 2s ease-in-out;
+}
+
+#servicesDesktop .container .box p {
+    font-size: 1.2rem;
+    color: #b8b8b8;
+    font-weight: 400;
+
+    margin-bottom: 3rem;
+    transition: all 2s ease-in-out;
+}
+
+#servicesDesktop .container .box a button {
+    border: none;
+    background: var(--gradient);
+    color: var(--white);
     font-size: 1rem;
-    line-height: 1.3;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    transition: all 2s ease-in-out;
 }
 
-.container-slide-stacks {  
-    width: 100%;
+#servicesDesktop .container .box a button:hover {
+    cursor: pointer;
+    filter: brightness(1.5);
 }
 
-.stackks {
-    background:#0A090E;
+#servicesDesktop .container .box .additional-content {
+    transition: top 500ms ease-in-out;
+    z-index: 3; 
+    display: none; 
 }
 
-.stacks {
-    position: relative;
-    background-repeat: repeat-x;
-    animation: animatedImage 22s linear infinite;
+#servicesDesktop .container .box:hover .additional-content {
+    display: block; 
 }
-@keyframes animatedImage {
-     0% { left: 500px;}
-   100% { left: -500px;}
+
+
+@media (min-width: 1080px) {
+    section#servicesDesktop  {
+        display: inherit;
+    }
 }
+
