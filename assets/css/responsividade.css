@@ -94,7 +94,7 @@
    
 }
 
-@media (max-width: 567px) {
+@media(0px <=width<= 768px) {
     
     .logo {
         font-size: 1.4rem;
@@ -105,8 +105,15 @@
     .home {
         height: 100vh;
     }
+
+    #projects .image img {
+        width: 100%;
+        
+        margin-top: 4rem;
+      }
     
 }
+
 
 
 
