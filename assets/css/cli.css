@@ -99,6 +99,12 @@
     opacity: 1;
   }
 
+@media (max-width: 767px {
+.wrapper {
+width:min(50rem, 100%)
+}
+}
+
   @media (min-width: 768px) {
     .wrapper {
         width: min(76rem, 100%);
