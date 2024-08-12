@@ -94,6 +94,27 @@
    
 }
 
+@media(max-width:480px) {
+    
+    .logo {
+        font-size: 1.4rem;
+    }
+    .home-text h1 {
+        font-size: 3rem;
+    }
+    .home {
+        height: 100vh;
+    }
+
+    #projects .image img {
+        width: 100%;
+        
+        margin-top: 4rem;
+      }
+    
+}
+
+
 @media(max-width:768px) {
     
     .logo {
