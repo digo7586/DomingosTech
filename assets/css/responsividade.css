@@ -58,7 +58,7 @@
     }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 480px) {
     #menu-icon {
         display: block;
     }
