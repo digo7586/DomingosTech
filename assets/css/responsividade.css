@@ -94,7 +94,7 @@
    
 }
 
-@media(0px <=width<= 768px) {
+@media(max-width:768px) {
     
     .logo {
         font-size: 1.4rem;
