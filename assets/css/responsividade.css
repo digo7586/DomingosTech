@@ -96,6 +96,10 @@
 }
 
 @media(max-width:480px) {
+
+header {
+width: 100vw;
+}
     
     .logo {
         font-size: 1.4rem;
