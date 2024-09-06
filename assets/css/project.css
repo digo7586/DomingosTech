@@ -16,6 +16,8 @@ html {
     position: relative;
     background-attachment: fixed;
     background-position: center;
+      background-size:cover;
+      background-repeat: no-repeat;
     min-height: 500px;
   }
 
@@ -31,8 +33,6 @@ html {
 
   #projects img.looper {
     position: absolute;
-    
-
     animation: rotate infinite linear 20s;
     z-index: -1;
     filter: brightness(.1);
@@ -99,7 +99,7 @@ html {
 
     filter: drop-shadow(2px 4px 20px #1b1b1b);
 
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   #projects .card.right .image img {
@@ -186,8 +186,8 @@ html {
   section#projects .wrapper .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20rem;
-    column-gap: 30rem;
+    gap: 10rem;
+    column-gap: 15rem;
   }
 
 
