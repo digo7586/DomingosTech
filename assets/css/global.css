@@ -39,14 +39,14 @@ input::-webkit-inner-spin-button {
     --white: #fafafa;
     --gray: #c9c9c9;
     --gradient: linear-gradient(45deg, #FFBE00, #d68f0a);
-    --fonte: 'Roboto';
+    --fonte: 'Poppins';
    
 }
 
 body {
     overflow-x: hidden;
     width: 100%; 
-    font-family: --var('Roboto');
+    font-family: --var('Poppins'), sans-serif;
     background-color: #0A090E;
     color: var(--white);
 }
