@@ -93,7 +93,7 @@ html {
 
   #projects .image img {
     width: 600px;
-    transition: all 200ms ease-in-out;
+    transition: all 1500ms ease-in-out;
     animation: move 2.5s infinite ease-in-out;
 
     filter: drop-shadow(2px 4px 20px #1b1b1b);
@@ -102,7 +102,7 @@ html {
   }
 
   #projects .card.right .image img {
-    animation-delay: 500ms;
+    animation-delay: 900ms;
   }
   
   #projects .image img:hover { 
