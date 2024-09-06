@@ -1,4 +1,4 @@
-#services {
+#servic {
     background: linear-gradient(to right, #171717, #1F1F1F);
     overflow: hidden;
   
@@ -12,20 +12,20 @@
     padding-block: 0;
 }
 
-#services .wrapper {
+#servic .wrapper {
     position: relative;
     z-index: 11;
 }
   
-#services .content {
+#servic .content {
     padding-block: 8rem;
 }
 
-#services header {
+#servic header {
     margin-bottom: 5rem;
 }
 
-#services header h2 {
+#servic header h2 {
     color: var(--color-text);
     font-size: 3.5rem;
     margin-bottom: 1rem;
@@ -33,7 +33,7 @@
     font-weight: 500;
 }
 
-#services header h2 span {
+#servic header h2 span {
     font-family: var(--Adoha); 
 
     background: var(--gradient);
@@ -42,7 +42,7 @@
     font-weight: 600;
 }
 
-#services .content .cards {
+#servic .content .cards {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,7 +51,7 @@
     position: relative;
 }
 
-#services .blush {
+#servic .blush {
     width: 500px;
     height: 500px;
     background: radial-gradient(#f0f0f0, transparent 50%);
@@ -66,7 +66,7 @@
     animation: moveblush infinite 4s linear;
 }
 
-#services .content .cards .card-container {
+#servic .content .cards .card-container {
     padding: 2rem;
     border-radius: 2rem;
     width: 100%;
@@ -78,12 +78,12 @@
     border: 2px solid rgba(46, 46, 46, 0.3);
 }
 
-#services .content img {
+#servic .content img {
     width: 3rem;
     margin-bottom: 2rem;
 }
 
-#services .content h3 {
+#servic .content h3 {
     font-family: var(--Adoha);
     letter-spacing: 1px;
     color: #ececec;
@@ -92,7 +92,7 @@
     font-weight: 800;
 }
 
-#services .content h3 span {
+#servic .content h3 span {
     font-family: var(--Adoha); 
 
     background: var(--gradient);
@@ -101,66 +101,66 @@
     font-weight: 800;
 }
 
-#services .content p {
+#servic .content p {
     color: #838383;
     font-size: 1.6rem;
     font-weight: 400;
 }
 
-#services .content p span {
+#servic .content p span {
     font-weight: 600;
     color: #949494;
 }
 
 @media (min-width: 1080px) {
-    section#services
+    section#servic
  {
         position: relative;
     }
 
-    section#services
+    section#servic
  .blush {
         width: 800px;
         height: 800px;
     }
 
-    section#services
+    section#servic
  .slide img {
         width: 70%;
         border-radius: 3rem;
     }
 
-    section#services
+    section#servic
  .wrapper {
         align-items: center;
         justify-content: center;
         display: flex;
     }
 
-    section#services
+    section#servic
  header {
         margin-bottom: 8rem;
     }
 
-    section#services
+    section#servic
  header h2 {
         font-size: 5.5rem;
     }
 
-    section#services
+    section#servic
  .content h3 {
         font-size: 2rem;
         color: #b3b2b2;
     }
 
-    section#services
+    section#servic
  .content p {
         width: 80%;
         font-size: 1.6rem;
         color: #929292;
     }
     
-    section#services
+    section#servic
  .content .cards {
         gap: 1rem;
         display: grid;
@@ -170,7 +170,7 @@
         padding-inline: 7rem;
     }
 
-    section#services
+    section#servic
  .content .cards .card {
         width: 100%;
         height: 100%;
@@ -181,7 +181,7 @@
         align-items: center;
     }
 
-    section#services
+    section#servic
  .content img.icone {
         position: absolute;
         width: 17rem;
@@ -207,13 +207,13 @@
         }
     }
 
-    section#services
+    section#servic
  .content img.icone.um {
         top: -15%;
         left: -15%;
     }
 
-    section#services
+    section#servic
  .content img.icone.dois {
         top: -15%;
         right: -15%;
@@ -222,13 +222,13 @@
         animation: icone2 infinite 4s ease-in-out;
     }
 
-    section#services
+    section#servic
  .content img.icone.tres {
         bottom: -15%;
         left: -15%;
     }
 
-    section#services
+    section#servic
  .content img.icone.quatro {
         bottom: -15%;
         right: -15%;
@@ -237,7 +237,7 @@
         animation: icone2 infinite 4s ease-in-out;
     }
 
-    section#services
+    section#servic
  .wrapper .content .card-container {
         position: relative;
         height: 100%;
@@ -251,7 +251,7 @@
         border: 2px solid rgba(28, 28, 28, 0.577);
     }
 
-    section#services
+    section#servic
  .wrapper .content .card-container .card {
         padding-block: 3rem;
     }
@@ -263,17 +263,17 @@
       width: min(140rem, 100%);
     }
 
-    section#services
+    section#servic
  .wrapper .content .card-container {
         padding: 2rem;
     }
 
-    section#services
+    section#servic
  .content h3 {
         font-size: 2.5rem;
     }
 
-    section#services
+    section#servic
  .content p {
         width: 80%;
         font-size: 1.6rem;
