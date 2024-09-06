@@ -275,12 +275,12 @@
 
     section#servic
  .content h3 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     section#servic
  .content p {
         width: 80%;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
