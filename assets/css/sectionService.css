@@ -1,5 +1,7 @@
 #servic {
    background-image: url(../img/tec6.png);
+   background-size: cover;
+   background-repeat: no-repeat;
     overflow: hidden;
   
     position: relative;
