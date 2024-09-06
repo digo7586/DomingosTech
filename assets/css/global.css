@@ -37,6 +37,7 @@ input::-webkit-inner-spin-button {
     --white: #fafafa;
     --gray: #c9c9c9;
     --gradient: linear-gradient(45deg, #FFBE00, #d68f0a);
+    --fonte: 'Poppins';
    
 }
 
