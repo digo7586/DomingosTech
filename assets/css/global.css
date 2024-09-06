@@ -46,7 +46,7 @@ input::-webkit-inner-spin-button {
 body {
     overflow-x: hidden;
     width: 100%; 
-    font-family: --var('Poppins'), sans-serif;
+    font-family: var(--fonte), sans-serif;
     background-color: #0A090E;
     color: var(--white);
 }
