@@ -49,7 +49,7 @@
     border-radius: 1rem;
     background-color: #131212;
     text-align: left;
-margin-bottom: 1rem;
+margin-bottom: 1.6rem;
 }
 
 #services .cards .card h3 {
@@ -72,8 +72,7 @@ margin-bottom: 1rem;
 
 #services .cards .card p {
     color: var(--gray);
-    font-weight: 400;
-    margin-bottom: 2rem;
+    font-weight: 400;
 }
 
 #services .cards .card a {
