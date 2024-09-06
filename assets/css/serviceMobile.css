@@ -45,7 +45,7 @@
 }
 
 #services .cards .card {
-    padding: .5rem 2rem;
+    padding: 1rem 2rem;
     border-radius: 1rem;
     background-color: #131212;
     text-align: left;
@@ -67,7 +67,7 @@
     left: -1.5rem;
     height: 5rem;
     background: var(--gold);
-    top: 3rem;
+    top: -1rem;
 }
 
 #services .cards .card p {
