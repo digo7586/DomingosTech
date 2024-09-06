@@ -1,4 +1,4 @@
-#aprender {
+#services {
     background: linear-gradient(to right, #171717, #1F1F1F);
     overflow: hidden;
   
@@ -12,20 +12,20 @@
     padding-block: 0;
 }
 
-#aprender .wrapper {
+#services .wrapper {
     position: relative;
     z-index: 11;
 }
   
-#aprender .content {
+#services .content {
     padding-block: 8rem;
 }
 
-#aprender header {
+#services header {
     margin-bottom: 5rem;
 }
 
-#aprender header h2 {
+#services header h2 {
     color: var(--color-text);
     font-size: 3.5rem;
     margin-bottom: 1rem;
@@ -33,7 +33,7 @@
     font-weight: 500;
 }
 
-#aprender header h2 span {
+#services header h2 span {
     font-family: var(--Adoha); 
 
     background: var(--gradient);
@@ -42,7 +42,7 @@
     font-weight: 600;
 }
 
-#aprender .content .cards {
+#services .content .cards {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,7 +51,7 @@
     position: relative;
 }
 
-#aprender .blush {
+#services .blush {
     width: 500px;
     height: 500px;
     background: radial-gradient(#f0f0f0, transparent 50%);
@@ -66,7 +66,7 @@
     animation: moveblush infinite 4s linear;
 }
 
-#aprender .content .cards .card-container {
+#services .content .cards .card-container {
     padding: 2rem;
     border-radius: 2rem;
     width: 100%;
@@ -78,12 +78,12 @@
     border: 2px solid rgba(46, 46, 46, 0.3);
 }
 
-#aprender .content img {
+#services .content img {
     width: 3rem;
     margin-bottom: 2rem;
 }
 
-#aprender .content h3 {
+#services .content h3 {
     font-family: var(--Adoha);
     letter-spacing: 1px;
     color: #ececec;
@@ -92,7 +92,7 @@
     font-weight: 800;
 }
 
-#aprender .content h3 span {
+#services .content h3 span {
     font-family: var(--Adoha); 
 
     background: var(--gradient);
@@ -101,58 +101,67 @@
     font-weight: 800;
 }
 
-#aprender .content p {
+#services .content p {
     color: #838383;
     font-size: 1.6rem;
     font-weight: 400;
 }
 
-#aprender .content p span {
+#services .content p span {
     font-weight: 600;
     color: #949494;
 }
 
 @media (min-width: 1080px) {
-    section#aprender {
+    section#services
+ {
         position: relative;
     }
 
-    section#aprender .blush {
+    section#services
+ .blush {
         width: 800px;
         height: 800px;
     }
 
-    section#aprender .slide img {
+    section#services
+ .slide img {
         width: 70%;
         border-radius: 3rem;
     }
 
-    section#aprender .wrapper {
+    section#services
+ .wrapper {
         align-items: center;
         justify-content: center;
         display: flex;
     }
 
-    section#aprender header {
+    section#services
+ header {
         margin-bottom: 8rem;
     }
 
-    section#aprender header h2 {
+    section#services
+ header h2 {
         font-size: 5.5rem;
     }
 
-    section#aprender .content h3 {
+    section#services
+ .content h3 {
         font-size: 2rem;
         color: #b3b2b2;
     }
 
-    section#aprender .content p {
+    section#services
+ .content p {
         width: 80%;
         font-size: 1.6rem;
         color: #929292;
     }
     
-    section#aprender .content .cards {
+    section#services
+ .content .cards {
         gap: 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -161,7 +170,8 @@
         padding-inline: 7rem;
     }
 
-    section#aprender .content .cards .card {
+    section#services
+ .content .cards .card {
         width: 100%;
         height: 100%;
 
@@ -171,7 +181,8 @@
         align-items: center;
     }
 
-    section#aprender .content img.icone {
+    section#services
+ .content img.icone {
         position: absolute;
         width: 17rem;
 
@@ -196,12 +207,14 @@
         }
     }
 
-    section#aprender .content img.icone.um {
+    section#services
+ .content img.icone.um {
         top: -15%;
         left: -15%;
     }
 
-    section#aprender .content img.icone.dois {
+    section#services
+ .content img.icone.dois {
         top: -15%;
         right: -15%;
 
@@ -209,12 +222,14 @@
         animation: icone2 infinite 4s ease-in-out;
     }
 
-    section#aprender .content img.icone.tres {
+    section#services
+ .content img.icone.tres {
         bottom: -15%;
         left: -15%;
     }
 
-    section#aprender .content img.icone.quatro {
+    section#services
+ .content img.icone.quatro {
         bottom: -15%;
         right: -15%;
 
@@ -222,7 +237,8 @@
         animation: icone2 infinite 4s ease-in-out;
     }
 
-    section#aprender .wrapper .content .card-container {
+    section#services
+ .wrapper .content .card-container {
         position: relative;
         height: 100%;
         display: flex;
@@ -235,7 +251,8 @@
         border: 2px solid rgba(28, 28, 28, 0.577);
     }
 
-    section#aprender .wrapper .content .card-container .card {
+    section#services
+ .wrapper .content .card-container .card {
         padding-block: 3rem;
     }
 
@@ -246,15 +263,18 @@
       width: min(140rem, 100%);
     }
 
-    section#aprender .wrapper .content .card-container {
+    section#services
+ .wrapper .content .card-container {
         padding: 2rem;
     }
 
-    section#aprender .content h3 {
+    section#services
+ .content h3 {
         font-size: 2.5rem;
     }
 
-    section#aprender .content p {
+    section#services
+ .content p {
         width: 80%;
         font-size: 1.6rem;
     }
