@@ -89,6 +89,7 @@ html {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    transition: all 1800ms ease-in-out;
   }
 
   #projects .image img {
