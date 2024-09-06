@@ -186,8 +186,8 @@ html {
   section#projects .wrapper .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10rem;
-    column-gap: 15rem;
+    gap: 5rem;
+    column-gap: 10rem;
   }
 
 
