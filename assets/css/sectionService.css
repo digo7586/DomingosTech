@@ -220,7 +220,7 @@
 
     section#servic
  .content img.icone.dois {
-        top: -10%;
+        top: -15%;
         right: -15%;
 
         mask-image: linear-gradient(to left ,#fff, transparent 85%);
@@ -230,13 +230,13 @@
     section#servic
  .content img.icone.tres {
         bottom: -5%;
-        left: -5%;
+        left: 2%;
     }
 
     section#servic
  .content img.icone.quatro {
         bottom: -15%;
-        right: -20%;
+        right: -25%;
 
         mask-image: linear-gradient(to left ,#fff, transparent 85%);
         animation: icone2 infinite 4s ease-in-out;
