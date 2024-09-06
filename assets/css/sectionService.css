@@ -92,7 +92,7 @@
     font-family: var(--fonte);
     letter-spacing: 1px;
     color: #ececec;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
     font-weight: 800;
 }
@@ -108,7 +108,7 @@
 
 #servic .content p {
     color: #838383;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
