@@ -53,21 +53,6 @@
     position: relative;
 }
 
-#servic .blush {
-    width: 500px;
-    height: 500px;
-    background: radial-gradient(#f0f0f0, transparent 50%);
-    border-radius: 50%;
-    position: absolute;
-    z-index: -1;
-    top: 57%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: .1;
-
-    animation: moveblush infinite 4s linear;
-}
-
 #servic .content .cards .card-container {
     padding: 2rem;
     border-radius: 2rem;
@@ -118,12 +103,6 @@
     section#servic
  {
         position: relative;
-    }
-
-    section#servic
- .blush {
-        width: 800px;
-        height: 800px;
     }
 
     section#servic
