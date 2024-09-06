@@ -53,10 +53,10 @@ margin-bottom: 1.6rem;
 }
 
 #services .cards .card h3 {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     color: var(--white);
     font-weight: 500;
-
+margin-bottom: .5rem;
     position: relative;
 }
 
