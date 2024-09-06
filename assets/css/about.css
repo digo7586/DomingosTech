@@ -1,6 +1,6 @@
 .about {
     background:#18181B;
-    
+        transition: all 1800ms ease-in-out;
     align-items: center;
 }
 
