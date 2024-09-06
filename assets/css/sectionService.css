@@ -189,10 +189,10 @@
     section#servic
  .content img.icone {
         position: absolute;
-        width: 14rem;
+        width: 12rem;
 
         mask-image: linear-gradient(to right ,#fff, transparent 85%);
-        filter: blur(4px) saturate(115%);
+        filter: blur(3px) saturate(115%);
         opacity: 1;
 
         animation: icone infinite 4s ease-in-out;
