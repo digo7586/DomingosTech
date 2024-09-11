@@ -207,8 +207,8 @@ header.sticky {
     color: #777777;
     font-size: 1rem;
     text-align: center;
+    flex-wrap: wrap;
 }
-
 
 .footer p {
     margin: 0;
@@ -217,13 +217,16 @@ header.sticky {
 
 @media (max-width: 768px) {
     .footer {
-        flex-direction: row; 
+        flex-direction: column;
     }
     
     .footer p {
         margin-bottom: 0.5rem;
+        width: 100%; 
+        text-align: center;
     }
 }
+
 
 
 
