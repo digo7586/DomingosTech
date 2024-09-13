@@ -1,380 +1,366 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Primary Meta Tags -->
-    <title>Lumina Bronze - A sua melhor oportunidade para conquistar um bronzeado natural e radiante.</title>
-    <meta name="title" content="Lumina Bronze - A sua melhor oportunidade para conquistar um bronzeado natural e radiante." />
-    <meta name="description" content="O aniversário é nosso, mas o presente é seu! Essa é a sua melhor e mais acessível oportunidade de redefinir a sua autoestima e acabar com a sua calvície!"/>
-    <!-- Open Graph / Facebook -->
+     <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Diego Domingos - Desenvolvedor Freelancer especializado em criação de sites, landing pages, rebranding e suporte técnico contínuo. Transforme sua presença digital com soluções personalizadas." />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Diego Domingos">
+    
+    <!-- Keywords -->
+    <meta name="keywords"
+        content="desenvolvedor web, freelancer, criação de sites, landing pages, rebranding, suporte técnico, otimização de SEO, sites personalizados, Domingos Tech&Code, soluções digitais, desenvolvimento web, presença digital" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Diego Domingos │ Desenvolvedor Freelancer" />
+    <meta property="og:description" content="Transforme sua presença digital com Diego Domingos. Criação de sites, landing pages e muito mais!" />
+    <meta property="og:image" content="assets/image/logoPNG.ico" />
+    <meta property="og:url" content="https://seusite.com" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Lumina Bronze -  A sua melhor oportunidade para conquistar um bronzeado natural e radiante." />
-    <meta property="og:description" content="A melhor oportunidade para realçar sua autoestima com um bronzeado natural e duradouro!"/>
 
-    <meta name="Author" content="Domingos Tech&Code">
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="assets/image/logoPNG.ico" />
 
-    <link rel="stylesheet" href="./style.css">
+    <!--Font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--Carousel css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <!--EmailJS-->
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+
+    <!--AOS CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!--style css  -->
+    <link rel="stylesheet" href="assets/css/index.css" />
+
+     <title>Diego Domingos │ Desenvolvedor Freelancer</title>
 </head>
+
 <body>
+    <header class="header" id="header">
+        <a href="index.html" class="logo">Domingos <span class="destaque">│Tech&Code.</span></a>
 
-    <header id="home">
-        <div class="wrapper">
-            <div class="content">
-                <div class="text" data-aos="fade-up-right">
-                    <img class="logo" src="./assets/logo-lumina-bronze.png" alt="Logo Lumina Bronze">
-                    <h2>Lumina Bronze, <span>bronzeado natural e duradouro!</span></h2>
-                    <h1>Descubra a verdadeira beleza de um bronzeado radiante atingindo a cor tão desejada <span>com uma marquinha perfeita</span></h1>
-                    <p>Resultados visíveis e duradouros em pouquíssimo tempo! Experimente o melhor do bronzeamento.</p>
+        <ul class="navlist">
+            <li><a href="index.html" class="active">INÍCIO</a></li>
+            <li><a href="#about">SOBRE</a></li>
+            <li><a href="#services">SERVIÇOS</a></li>
+            <li><a href="#projects">PROJETOS</a></li>
+            <li><a href="#contact">CONTATO</a></li>
+        </ul>
 
-                
-                    <a href="#plano"><button>Bronzeado dos sonhos, agende já!</button></a>
-                </div>
-                
-
-                <div class="image" data-aos="fade-up-left">
-                    <img class="homem" src="./assets/antesedepois/antesedepois-principal.webp" alt="Primeira imagem de Antes e depois de um homem que fez um implante capilar com a Clinica Robotica Capilar">
-                    <img class="antesdepois um" src="./assets/antesedepois/antesedepois-1.webp" alt="Segunda imagem de Antes e depois de um homem que fez um implante capilar com a Clinica Robotica Capilar">
-                    <img class="antesdepois dois" src="./assets/antesedepois/antesedepois-2.webp" alt="Terceira imagem de Antes e depois de um homem que fez um implante capilar com a Clinica Robotica Capilar">
-                    <img class="antesdepois tres" src="./assets/antesedepois/antesedepois-3.webp" alt="Quarta imagem de Antes e depois de um homem que fez um implante capilar com a Clinica Robotica Capilar">
-                    <img class="antesdepois quatro" src="./assets/antesedepois/antesedepois-4.webp" alt="Quinta imagem de Antes e depois de um homem que fez um implante capilar com a Clinica Robotica Capilar">
-                    <img class="antesdepois cinco" src="./assets/antesedepois/antesedepois-5.webp" alt="Sexta imagem de Antes e depois de um homem que fez um implante capilar com a Clinica Robotica Capilar">
-                </div>
-                
-                <div class="eclipse">
-                    <img src="./assets/ELIPSE.svg" alt="Formato de linhas que se movimentam na tela">
-                </div>
-            </div>
-        </div>
-
-        <div class="slide">
-            <div class="slide-text">
-                <p>Lumina Bronze</p>
-                <p>Bronzeamento & Banho de Lua</p>
-                <p>Lumina Bronze</p>
-                <p>Bronzeamento & Banho de Lua</p>
-                <p>Lumina Bronze</p>
-                <p>Bronzeamento & Banho de Lua</p>
-                <p>Lumina Bronze</p>
-                <p>Bronzeamento & Banho de Lua</p>
-                <p>Lumina Bronze</p>
-                <p>Bronzeamento & Banho de Lua</p>
-                <p>Lumina Bronze</p>
-                <p>Bronzeamento & Banho de Lua</p>
-                <p>Lumina Bronze</p>
-                <p>Bronzeamento & Banho de Lua</p>
-                <p>Lumina Bronze</p>
-                <p>Bronzeamento & Banho de Lua</p>
-            </div>
-            <div class="slide-text">
-                <p>Lumina Bronze</p>
-                <p>Bronzeamento & Banho de Lua</p>
-                <p>Lumina Bronze</p>
-                <p>Bronzeamento & Banho de Lua</p>
-                <p>Lumina Bronze</p>
-                <p>Bronzeamento & Banho de Lua</p>
-                <p>Lumina Bronze</p>
-                <p>Bronzeamento & Banho de Lua</p>
-                <p>Lumina Bronze</p>
-                <p>Bronzeamento & Banho de Lua</p>
-                <p>Lumina Bronze</p>
-                <p>Bronzeamento & Banho de Lua</p>
-                <p>Lumina Bronze</p>
-                <p>Bronzeamento & Banho de Lua</p>
-                <p>Lumina Bronze</p>
-                <p>Bronzeamento & Banho de Lua</p>
-            </div>
+        <div class="menu-icon" id="menu-icon" aria-controls="navlist" aria-expanded="false">
+            <i class="fa-solid fa-bars-staggered"></i>
         </div>
     </header>
 
-    <section id="info">
-        <div class="wrapper">
-            <div data-aos="fade-up"  class="image">
-                <img src="./assets/homem-com-raiva-chateado-com-sua-calvicie.webp" alt="homem chateado com seu cabelo atual">
-                <p data-aos="fade-right">A maneira mais eficaz de <span>alcançar o bronzeado perfeito</span> neste verão</p>
+
+    <main>
+        <!-- start home section -->
+        <section class="home" id="home">
+
+            <div class="home-text">
+
+                <h1 data-aos="fade-down" data-aos-duration="2000">Diego Domingos</h1>
+                <h3 data-aos="fade-left" data-aos-duration="2500">
+                    <span>Desenvolvedor </span><span class="destaque texto-animado"></span>
+                </h3>
+
+                <div class="redes-sociais" data-aos="fade-down">
+                    <a href="https://github.com/digo7586" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/diego-domingos-159186233/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+
             </div>
 
-            <div class="text">
-                <p data-aos="fade-left">Na <span>Lumina Bronze</span>, acreditamos que um bronzeado saudável é a chave para elevar sua <span>autoestima e confiança</span>.</p>
-                <p data-aos="fade-left">Sabemos que muitas pessoas buscam o bronzeado ideal, e é por isso que oferecemos uma <span>promoção exclusiva para você brilhar</span> neste verão.</p>
-                <p data-aos="fade-left" class="box blue">Esta é a sua oportunidade de conquistar um bronzeado duradouro com nossos <span>tratamentos especiais</span>!</p>
-                <p data-aos="fade-left" class="box white">Nos meses de <span>Outubro, Novembro e Dezembro</span>, aproveite ofertas com <span>descontos imperdíveis</span> e <span>parcelamento facilitado</span>.</p>
-            </div>
-        </div>
-    </section>
+        </section>
+        <!-- end home section -->
 
-    <section id="benefits">
+        <!--Start Section About-->
+        <section class="about" id="about">
+           <!-- <div class="about-img" data-aos="fade-up">
+                <img src="./assets/image/digo2.png" alt="" />
+            </div>
+-->
+            <div class="about-text" data-aos="fade-up" data-aos-duration="2000">
+
+
+                <h2>Sobre <span class="destaque">mim</span></h2>
+                <h4>Desenvolvedor Web</h4>
+
+                <p data-aos="fade-right" data-aos-duration="2000">
+                    Sou desenvolvedor web. Trabalho como analista de T.I e Freelancer.
+                    Formado em análise e desenvolvimento de sistemas, e migrando para
+                    Engenharia de Software para aprofundar ainda mais meus
+                    conhecimentos. Quer levar seu negócio online a um novo nível ?
+                    Estou à disposição para fazer isso acontecer.<br />
+                    Entre em contato!
+                </p>
+            </div>
+
+        </section>
+        <!--end Section About-->
+
+        <!-- start servic -->
+         <section id="servic">
+
         <div class="wrapper">
             <div class="content">
-                <img data-aos="fade-up" src="./assets/sunny-outline.svg" alt="sol">
-                <p data-aos="fade-up">BENEFÍCIOS</p>
-                <h2 data-aos="fade-up">Vantagens do Bronzeamento na Lumina Bronze</h2>
-    
-                <div class="list">
-                    <p data-aos="fade-right"><ion-icon name="checkmark-done-outline"></ion-icon> Bronzeado natural e duradouro;</p>
-                    <p data-aos="fade-right"><ion-icon name="checkmark-done-outline"></ion-icon> Bronzeamento realizado com máquina de alta tecnologia;</p>
-                    <p data-aos="fade-right"><ion-icon name="checkmark-done-outline"></ion-icon> Procedimento rápido e eficaz;</p>
-                    <p data-aos="fade-right"><ion-icon name="checkmark-done-outline"></ion-icon> Mantém a pele hidratada e saudável;</p>
-                    <p data-aos="fade-right"><ion-icon name="checkmark-done-outline"></ion-icon> Resultados visíveis em poucas sessões;</p>
-                    <p data-aos="fade-right"><ion-icon name="checkmark-done-outline"></ion-icon> Indolor e seguro para todos os tipos de pele;</p>
-                    <p data-aos="fade-right"><ion-icon name="checkmark-done-outline"></ion-icon> Marquinha perfeita garantida;</p>
-                    <p data-aos="fade-right"><ion-icon name="checkmark-done-outline"></ion-icon> Procedimento personalizado para cada cliente.</p>
+                <div class="head">
+                    <h2>Serviços <span>oferecidos</span></h2>
                 </div>
-    
-                <div data-aos="fade-up" class="button">
-                    <a href="#plano"><button>QUERO GARANTIR MEU BRONZE</button></a>
-                </div>
-            </div>
-        </div>
-    
-        <div class="line"></div>
-    </section>
-    
-
-    <section id="dificuldades"> 
-        <div class="wrapper">
-            <div class="content">
-                <header>
+               <div class="cards">
                    
-                    <p data-aos="fade-up">QUALIDADE</p>
-                    <h2 data-aos="fade-up">Por que escolher nosso bronzeamento?</h2>
-                </header>
+                    <div class="card-container">
+                        <img class="icone um" src="./assets/image/web.png" alt="">
+                        <div class="card">
+                            <h3><span>Sites</span> para seu negócio</h3>
+                            <p>Desenvolvo <span>sites personalizados</span> e estratégicos que se alinham às suas metas, garantindo presença digital forte e resultados eficazes.</p>
+                        </div>
+                    </div>
+
+                     <div class="card-container">
+                        <img class="icone dois" src="./assets/image/rocket.png" alt="">
+                        <div class="card">
+                            <h3><span>Landing</span> Pages</h3>
+                            <p>Crio <span>Landing Pages</span> focadas em conversão, otimizadas para captar leads e <span>maximizar suas vendas</span> de forma eficaz.</p>
+                        </div>
+                    </div>
+
+                    <div class="card-container">
+                        <img class="icone tres" src="./assets/image/rebranding.png" alt="">
+                        <div class="card">
+                            <h3><span>Rebranding</span> e atualizações</h3>
+                            <p>Transformo sua marca com <span>rebranding estratégico</span>, renovando seu site para refletir sua essência e conquistar novos mercados.</p>
+                        </div>
+                    </div>
+
+                    <div class="card-container">
+                        <img class="icone quatro" src="./assets/image/suport.png" alt="">
+                        <div class="card">
+                            <h3><span>Suporte</span> eficiente</h3>
+                            <p>Ofereço suporte técnico contínuo para garantir que seu site esteja sempre <span>funcionando perfeitamente</span> e otimizado para resultados.</p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>  
+
+        <div class="blush"></div>
+    </section>
+        
+        
+         <!-- end service -->
+       
+
+       
+                  
+
+      <!--   <section id="clientes">
+            <div class="wrapper">
+                <div class="content">
+                    <header>
+                        <span>CLIENTES</span>
+                        <h2>Nossos queridinhos</h2>
+                    </header>
+    
+                    <div class="slide um">
+                        <div class="slide-text">
+                          <img src="./assets/image/skills-img/bootstrap.png" alt="">
+                          <img src="./assets/image/skills-img/css3.png" alt="">
+                          <img src="./assets/image/skills-img/figma.png" alt="">
+                          <img src="./assets/image/skills-img/html5.png" alt="">
+                          <img src="./assets/image/skills-img/javascript.png" alt="">
+                          <img src="./assets/image/skills-img/php.png" alt="">
+                          <img src="./assets/image/skills-img/wordpress.png" alt="">
+                         
+                          
+                         
+                        </div>
+                      
+                    </div>
+                   
+                </div>
+            </div>
+        </section> -->
+        <!-- end slide -->
+
+        <!-- start portfolio -->
+        <section id="projects">
+            <div class="wrapper">
+                <div class="main-text" data-aos="fade-up" data-aos-duration="2500">
+                        <h3>Meus <span class="destaque"> Projetos</span></h3>
+                    </div>
 
                 <div class="cards">
-                    <div data-aos="flip-left" class="card">
+                    <div  class="card left" data-aos="fade-left" data-aos-duration="2500">
                         <div class="image">
-                            <img src="./assets/homem-triste-1-_1_.webp" alt="">
+                            <a target="_blank" href="https://deliciasdoce.vercel.app/">
+                                <img src="./assets/img/mkp1.webp" alt="mockup site Doce$sabor - Confeitaria">
+                            </a>
                         </div>
 
                         <div class="text">
-                            <ion-icon name="diamond-outline"></ion-icon>
-                            <h3>Qualidade Premium</h3>
-                            <p>Nosso bronzeamento utiliza tecnologia de ponta para garantir resultados impecáveis e de alta qualidade, dignos de um verdadeiro diamante.</p>
+                            <p><span style="color: #ff5fc7;">Doce <span/><span style="color: #5CE1E6;">&</span> <span style="color: #cb6ce6;">Sabor</span></p>
+                            <h4>Site institucional, responsivo.</h4>
                         </div>
+<!--
+                        <div class="technologies">
+                            <ion-icon name="logo-javascript"></ion-icon>
+                            <ion-icon name="logo-html5"></ion-icon>
+                            <ion-icon name="logo-css3"></ion-icon>
+                        </div>
+                                -->
                     </div>
-
-                    <div data-aos="flip-left" class="card">
+                                        <!--  -->
+                     <div class="card left" data-aos="fade-left" data-aos-duration="2500">
                         <div class="image">
-                            <img src="./assets/homem-triste-4-_1_.webp" alt="">
+                            <a target="_blank" href="https://cardapio-pizza.vercel.app/">
+                                <img src="./assets/image/pizza001.png" alt="mockup site Pizzaria">
+                            </a>
                         </div>
-                        <div class="text">
-                            <ion-icon name="flower-outline"></ion-icon>
-                            <h3>Cuidado Especial com a Pele</h3>
-                            <p>Nossos profissionais cuidam de cada detalhe, garantindo que sua pele receba o tratamento adequado, com produtos e procedimentos que respeitam a saúde da sua pele.</p>
-                        </div>
-                    </div>
 
-                    <div data-aos="flip-left" class="card">
+                        <div class="text">
+                            <p><span style="color: #F59E0C;">Konoha <span/><span style="color: #FFF;">Pizzaria</span></p>
+                            <h4>Cardapio online.</h4>
+                        </div>
+<!--
+                        <div class="technologies">
+                            <ion-icon name="logo-javascript"></ion-icon>
+                            <ion-icon name="logo-html5"></ion-icon>
+                            <ion-icon name="logo-css3"></ion-icon>
+                        </div>
+                                -->
+                    </div>
+                                    <!--  -->
+                    <div class="card left" data-aos="fade-left" data-aos-duration="2500">
                         <div class="image">
-                            <img src="./assets/homem-triste-_1_.webp" alt="">
+                            <a target="_blank" href="#">
+                                <img src="./assets/img/comming.webp"
+                                    alt="Landing Page">
+                            </a>
                         </div>
+
                         <div class="text">
-                            <ion-icon name="male-female-outline"></ion-icon>
-                            <h3>Para Todos</h3>
-                            <p>Oferecemos serviços de bronzeamento personalizados para homens e mulheres, garantindo que todos possam desfrutar dos benefícios de uma pele radiante.</p>
+                            <p>Site em desenvolvimento</p>
+                            <h4>Landing Page</h4>
                         </div>
+<!--
+                        <div class="technologies">
+                            <ion-icon name="logo-javascript"></ion-icon>
+                            <ion-icon name="logo-html5"></ion-icon>
+                            <ion-icon name="logo-css3"></ion-icon>
+                        </div>
+                        -->
                     </div>
 
-                    <div data-aos="flip-left" class="card">
-                        <div class="image">
-                            <img src="./assets/homem-triste-2-_1_.webp" alt="">
-                        </div>
-                        <div class="text">
-                            <ion-icon name="calendar-number-outline"></ion-icon>
-                            <h3>Agendamento Fácil</h3>
-                            <p>Agende seu bronzeamento de forma rápida e prática, escolhendo o melhor horário para você, com total flexibilidade e comodidade.</p>
-                        </div>
-                    </div>
-                </div>
 
-                <div data-aos="fade-up" class="footer">
-                    <h2 data-aos="fade-up">Experimente o melhor bronzeamento e transforme sua pele!</h2>
-                    <a href="#plano"><button>QUERO GARANTIR MEU BRONZE</button></a>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section id="depoimentos">
-        <div class="eclipse">
-            <img src="./assets/ELIPSE.svg" alt="">
-        </div>
+        </section>
+        <!-- end portifolio -->
 
-        <div class="wrapper">
-            <div class="content">
-                <header>
-                    <img data-aos="fade-up" src="./assets/chatbubbles-outline.svg" alt="logo robotica capilar fio de cabelo logo curta">
-                    <p data-aos="fade-up">Depoimentos</p>
-                    <h2 data-aos="fade-up">Veja nosso impacto na vida das pessoas</h2>
-                </header>
-
-                <div class="swiper mySwiper">
-                    <div data-aos="fade-right" class="cards swiper-wrapper">
-                        <div class="swiper-slide card">
-                            <video poster="./assets/depoimentos/depoimento - capa.webp" controls>
-                                <source src="./assets/depoimentos/depoimento.mp4" type="video/mp4">
-                                Desculpe, seu navegador não suporta o carregamento desse video.
-                            </video>
-                        </div>
-    
-                        <div class="swiper-slide card">
-                            <video poster="./assets/depoimentos/depoimento 1 - capa.webp" controls>
-                                <source src="./assets/depoimentos/depoimento 3.mp4" type="video/mp4">
-                                Desculpe, seu navegador não suporta o carregamento desse video.
-                            </video>
-                        </div>
-    
-                        <div class="swiper-slide card">
-                            <video poster="./assets/depoimentos/depoimento 2 - capa.webp" controls>
-                                <source src="./assets/depoimentos/depoimento 2.mp4" type="video/mp4">
-                                Desculpe, seu navegador não suporta o carregamento desse video.
-                            </video>
-                        </div>
-    
-                        <div class="swiper-slide card">
-                            <video poster="./assets/depoimentos/depoimento 3 - capa.webp" controls>
-                                <source src="./assets/depoimentos/depoimento 1.mp4" type="video/mp4">
-                                Desculpe, seu navegador não suporta o carregamento desse video.
-                            </video>
-                        </div>
-                    </div>
-
-                    <div class="swiper-pagination"></div>
+        <!-- start contact -->
+        <section id="contact" class="contact">
+            <div class="container-contact">
+                <div class="headline" data-aos="fade-up" data-aos-duration="2000">
+                    <span class="destaque">Vamos conversar</span>
+                    <h1>Entre em Contato</h1>
                 </div>
+                <div class="content-contact">
+                    <div class="center-contact" data-aos="fade-right" data-aos-duration="2500">     
+                        <div class="list-contact">
+                        
+                            <div class="container-list">
+                                <ul>
+                                    <li><i class="fa-solid fa-envelope"></i> Email: dmgcode95@gmail.com</li>
+                                    <li><i class="fa-solid fa-map-marker-alt"></i> Localização: Iracemápolis, São Paulo
+                                        - Brasil</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="redes-sociais-contato">
+                            <span class="destaque">Redes Sociais:</span>
+                            <a href="https://github.com/digo7586" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/diego-domingos-159186233/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="https://wa.me/5511962795416" target="_blank"><i
+                                    class="fab fa-whatsapp"></i></a>
 
-                <div data-aos="fade-up" class="button">
-                    <a href="#plano"><button data-aos="fade-up">QUERO APROVEITAR</button></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="waves">
-            <img class="mobile" src="./assets/Montanhas.svg" alt="">
-            <img class="desktop" src="./assets/Montanhas Desktop.svg" alt="">
-        </div>
-    </section>
-
-    <section id="plano">       
-        <div class="wrapper">
-            <div class="content">
-                <header data-aos="fade-up-right">
-                    <h2>Pronto para brilhar?</h2>
-                    <p>Não deixe essa chance escapar, assegure seu bronzeado perfeito agora mesmo!</p>
-                </header>
-
-                <div data-aos="fade-up-left" class="plano">
-                    <ion-icon name="alert-outline"></ion-icon>
-
-                    <div class="head">
-                        <h3>APROVEITE AGORA!</h3>
-                    </div>
-
-                    <div class="desc">
-                        <p>Garanta sua vaga e comprometa-se com a transformação do seu visual. Nossa oferta é limitada a apenas 5 vagas, então não perca tempo para elevar sua autoestima e alcançar o bronzeado dos seus sonhos.</p>
-                    </div>
-
-                    <div class="price">
-                        <p class="avista"><span id="amount">R$350,00</span> a vista, ou</p>
-                        <p class="parcelado">6x<span> R$58,33</span></p>
-                        <p class="juros">sem juros</p>
-                    </div>
-
-                    <div class="button">
-                        <a href="https://wa.me/5511962795416" target="_blank">
-                            <button id="buttonForm">
-                                GARANTIR MEU BRONZEADO
-                            </button>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <!-- end contact -->
 
-    <section id="faq">
-        <div class="wrapper">
-            <div class="content">
-                <header>
-                    <img data-aos="fade-up" src="./assets/sol.svg" alt="Logo da Clínica">
-                    <p data-aos="fade-up">FAQ</p>
-                    <h2 data-aos="fade-up">Perguntas Frequentes</h2>
-                </header>
-    
-                <div class="details">
-                    <details data-aos="fade-up-right">
-                        <summary>Como funcionará a oferta exclusiva? <svg class="" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#E6EAED" viewBox="0 0 256 256"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path></svg></summary>
-                        <p>Para aproveitar nossa oferta exclusiva de bronzeamento, entre no grupo de WhatsApp da nossa clínica. Oferecemos condições especiais e descontos imperdíveis para quem participar. Não perca!</p>
-                    </details>
-    
-                    <details data-aos="fade-up-left">
-                        <summary>Onde fica a Clínica Lúmina Bronze? <svg class="" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#E6EAED" viewBox="0 0 256 256"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path></svg></summary>
-                        <p>Estamos localizados na Rua Lúmina, 7 - Solaris, São Paulo - SP, 99999-999. Venha nos visitar para conhecer nossas instalações e saber mais sobre os serviços de bronzeamento disponíveis.</p>
-                    </details>
-    
-                    <details data-aos="fade-up-right">
-                        <summary>Como posso acessar a oferta exclusiva? <svg class="" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#E6EAED" viewBox="0 0 256 256"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path></svg></summary>
-                        <p>Para acessar nossa oferta exclusiva de bronzeamento, entre no grupo de WhatsApp. Lá, fornecemos todas as informações necessárias sobre como aproveitar nossos serviços com condições especiais. Não deixe de participar!</p>
-                    </details>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <footer id="footer">
-        <div class="wrapper">
-            <div class="content">
-                <div class="footer-info">
-                    <img src="./assets/logo-clinica.svg" alt="Logo da Clínica" class="footer-logo">
-                    <p class="footer-description">Oferecemos o melhor em bronzeamento com tecnologia avançada e atendimento personalizado para garantir um bronzeado perfeito e saudável.</p>
-                    
-                    <div class="contact-info">
-                        <h4>Contato</h4>
-                        <p><ion-icon name="location-outline"></ion-icon> Rua Lúmina, 7 - Solaris, São Paulo - SP, 99999-999</p>
-                        <p><ion-icon name="call-outline"></ion-icon> (11) 99999-9999</p>
-                        <p><ion-icon name="mail-outline"></ion-icon> contato@luminabronze.com.br</p>
-                    </div>
-                </div>
-    
-                <div class="footer-links">
-                    <h4>Links Rápidos</h4>
-                    <ul>
-                        <li><a href="#benefits">Benefícios</a></li>
-                        <li><a href="#dificuldades">Qualidades</a></li>
-                        <li><a href="#plano">Plano</a></li>
-                        <li><a href="#faq">FAQ</a></li>
-                    </ul>
-                </div>
-    
-                <div class="footer-social">
-                    <h4>Redes Sociais</h4>
-                    <a href="https://www.facebook.com/luminabronze" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-                    <a href="https://www.instagram.com/luminabronze" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a href="https://www.twitter.com/luminabronze" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
-                </div>
-            </div>
-    
-            <div class="footer-bottom">
-                <p>&copy; 2024 Clínica Lúmina Bronze. Todos os direitos reservados.</p>
-            </div>
-        </div>
+
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <p> © 2024 Domingos Tech&Code Todos os direitos reservados </p>
+        <p>Desenvolvido <span class="destaque">Diego Domingos</span></p>
     </footer>
-        
-    
-    
+    <!--End Footer-->
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="./script.js"></script>
+    <!--OwlCarousel-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 32,
+                nav: false,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: { items: 1 },
+                    768: { items: 2 },
+                    1025: { items: 2 },
+                    1500: { items: 3 }
+                }
+            });
+        });
+    </script>
+
+    <script>
+        AOS.init();
+
+        // Máscara para o campo WhatsApp
+        document.getElementById('whatsapp').addEventListener('input', function (e) {
+            let value = e.target.value.replace(/\D/g, '');
+            value = value.replace(/^(\d{2})(\d{5})(\d{4}).*/, '($1) $2-$3');
+            e.target.value = value;
+        });
+    </script>
+
+
+
+    <!--Scripts-->
+
+
+    <script src="assets/js/headerAnimation.js"></script>
+    <script src="assets/js/textAnimation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
-</html> 
+
+</html>
